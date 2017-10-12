@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>KafeSoil</title>
+  <link rel="stylesheet" href="css/style.css">
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+    <script type="text/javascript">
+
+    document.addEventListener("scroll", function(){
+      var scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+      if (scrollTop < 1100) {  //position of the scroll to change the menu
+         document.getElementById("bye").style.display = "none";
+      }else {
+         document.getElementById("bye").style.display = "block";
+      }
+    });
+  </script>
+</head>
+<body>
+    <a href="http://www.google.com"><img src="http://www.visitalanya.com/wp-content/uploads/2015/10/Cafe21.jpeg"/></a> <!--FIRST MENU -->
+    <div id="bye">  <!-- SECOND MENU-->
+      <button type="button">about</button>
+      <button type="button">food and drinks</button>
+      <button type="button">events</button>
+      <button type="button">contact</button>
+    </div>
+    <p id="demo">Hello</p><p></p>
+
+    <!-- Automatics links to the other pages-->
+    <div w3-include-html="volunteer.html"></div>
+    <div w3-include-html="contacts.html"></div>
+    <div w3-include-html="food_drinks.html"></div>
+    <div w3-include-html="about.html"></div>
+    <div w3-include-html="art.html"></div>
+    <div w3-include-html="hamlet_ActIII_scene1.html"></div> <!--Example -->
+    <script>
+      w3.includeHTML();
+    </script>
+</body>
+</html>
