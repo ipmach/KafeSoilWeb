@@ -110,12 +110,39 @@
         color: pink;
     }
   /********************/
+  /*Positions*/
+  #volunteer{
+    position: absolute;
+    top: 120%;
+    width: 100%;
+  }
+
+  /**********/
 /**************************************************************************************/
-/* ------ Form Style ------ */
-#volunteer{
+/******************************ART*****************************************************/
+.container_art{
   position: absolute;
-  top: 120%;
+  top:10%;
+  width: 100%;
 }
+
+.container_art2{
+  position: relative;
+  width: 100%;
+  top:20%;
+  background-color: pink;
+}
+
+.pictures{
+  position: relative;
+    left:20%;
+}
+
+.next{
+  border-radius: 12px;
+}
+/************************************************************************************/
+/* ------ Form Style ------ */
 .form{
     font: 95% Arial, Helvetica, sans-serif;
     width: 41%;

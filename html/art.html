@@ -1,0 +1,44 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Art</title>
+  <link rel="stylesheet" href="../css/style.css">
+
+</head>
+<body>
+  <h2>ART</h2>
+
+  <div class="container_art">
+    <img class="pictures" src="kakesoil1.jpg" style="width:50%">
+    <img class="pictures" src="kakesoil2.jpg" style="width:50%">
+    <img class="pictures" src="kakesoil3.jpg" style="width:50%">
+    <img class="pictures" src="kakesoil4.jpg" style="width:50%">
+    <button class="next" onclick="plusDivs(-1)">&#10094;</button>
+    <button class="next" onclick="plusDivs(1)">&#10095;</button>
+    <div class="container_art2">
+      <h1>Something here</h1>
+    </div>
+  </div>
+
+  <script>
+  var slideIndex = 1;
+  showDivs(slideIndex);
+
+  function plusDivs(n) {
+    showDivs(slideIndex += n);
+  }
+
+  function showDivs(n) {
+    var i;
+    var x = document.getElementsByClassName("pictures");
+    if (n > x.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = x.length}
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+  }
+  x[slideIndex-1].style.display = "block";
+  }
+</script>
+
+</body>
+</html>
