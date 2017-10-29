@@ -1,4 +1,61 @@
-#bye{
+/*****************************FIRST MENU********************************************/
+/*div that contant the Menu1 and the img_menu*/
+#container{
+    position: relative;
+    padding:0;
+    margin:0;
+}
+/*image background*/
+#img_menu{
+  position: absolute;
+  width: 100%;
+}
+
+/*ID of the menu id*/
+#Menu1{
+  position: absolute;
+  color: white;
+  left:4%;
+}
+
+#menu1H1{
+	width:95%;
+	text-align:center;
+	line-height:155%;
+	margin-top:30%;
+	margin-bottom:5%;
+	margin-left:auto;
+	margin-right:auto;
+	/*position:relative;*/
+}
+#menu1li{
+	/*position:relative;*/
+	display:inline;
+	font-size:100%;
+	margin-right:20px;
+	margin-left:20px;
+	border-bottom:white solid 1px;
+}
+/*Kafé Soil*/
+#menu1H2{
+	text-align:center;
+	float:center;
+	font-size:140%;
+	margin-top:5%;
+	letter-spacing:5px;
+}
+/*Café & Bar*/
+#menu1H3{
+	text-align:center;
+	font-size:90%;
+	margin-top:5%;
+	margin-bottom:30%;
+	letter-spacing:2px;
+}
+/***********************************************************************************/
+/**************************** SECOND MENU ******************************************/
+/*id of the menu of the second menu*/
+#Menu2{
   position: fixed;
   top:0;
   left:0;
@@ -7,11 +64,7 @@
   display: none;
 }
 
-.first_menu_img{
-  width: 100%;
-  height: 100%;
-}
-
+/*Second menu icon*/
 .img_icon {
   position: absolute;
     border-radius: 50%;
@@ -21,7 +74,8 @@
     left: 1%;
 }
 
-button {
+/* Buttons second menu*/
+.button1 {
   background-color:  #666666;
   border: none;
  color: white;
@@ -34,27 +88,4 @@ button {
  cursor: pointer;
  float: right;
 }
-
-.button1{
-  color: #ff66cc;
-}
-
-.button2{
-  color: white;
-}
-
-.button3{
-  color: white;
-}
-
-.button4{
-  color:white;
-}
-
-.button5{
-  color:white;
-}
-
-.button6{
-  color:white;
-}
+/*************************************************************************************/
