@@ -6,7 +6,7 @@
   <link rel="stylesheet" href="css/style.css">
     <script src="https://www.w3schools.com/lib/w3.js"></script>
     <script type="text/javascript">
-
+    //display the second menu if the scroll is in x position
     document.addEventListener("scroll", function(){
       var scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
       if (scrollTop < 600) {  //position of the scroll to change the menu
@@ -24,34 +24,39 @@
   </script>
 </head>
 <body>
+    <!-- First menu-->
     <div id="container">
+      <!--background picture of the first menu -->
       <img src="img/menu1_img.jpg" id="img_menu" alt="prueba">
       <div id="Menu1">
         <h1 id="menu1H1">
           <ul>
-            <li id="menu1li"><a href="https://www.w3schools.com/html/" class="button2">About</a></li>
-            <li id="menu1li"><a class="button2">Eat and Drink</a></li>
-            <li id="menu1li"><a class="button2">Events</a></li>
-            <li id="menu1li"><a class="button2">Art</a></li>
-            <li id="menu1li"><a class="button2">Volunteer</a></li>
-            <li id="menu1li"><a class="button2">Contact</a></li>
+            <!-- Buttons -->
+            <li id="menu1li"><a href="https://www.w3schools.com/html/" class="button2" id="menu_button">About</a></li>
+            <li id="menu1li"><a class="button2" id="menu_button">Eat and Drink</a></li>
+            <li id="menu1li"><a class="button2" id="menu_button">Events</a></li>
+            <li id="menu1li"><a class="button2" id="menu_button">Art</a></li>
+            <li id="menu1li"><a href="#volunteer" class="button2" id="menu_button">Volunteer</a></li>
+            <li id="menu1li"><a class="button2" id="menu_button">Contact</a></li>
           </ul>
         </h1>
         <h2 id="menu1H2">Kafé Soil</h2>
         <h3 id="menu1H3">Café & Bar</h3>
       </div>
     </div>
-    <div id="Menu2">  <!-- SECOND MENU-->
-      <img class="img_icon" src="img/icon_menu.jpg">
-      <button class="button1" type="button">Contact</button>
-      <button class="button1" type="button">Volunteer</button>
-      <button class="button1" type="button">Arts</button>
-      <button class="button1" type="button">Events</button>
-      <button class="button1" type="button">Eat and drinks</button>
-      <button class="button1" type="button">About</button>
+     <!-- SECOND MENU-->
+    <div id="Menu2">
+      <a href="#Menu1">
+      <input type="image" src="img/icon_menu.jpg" id="button1_img">
+      </a>
+      <a class="button1" id="menu_button">Contact</a>
+      <a class="button1" href="#volunteer" id="menu_button">Volunteer</a>
+      <a class="button1" id="menu_button">Arts</a>
+      <a class="button1" id="menu_button">Events</a>
+      <a class="button1" id="menu_button">Eat and drinks</a>
+      <a class="button1" id="menu_button">About</a>
     </div>
-    <p id="demo">Hello</p><p></p>
-
+    
     <!-- Automatics links to the other pages-->
     <!--<div w3-include-html="html/hamlet_ActIII_scene1.html"></div><!--Example -->
     <div id="volunteer" w3-include-html="html/volunteer.html"></div>

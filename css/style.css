@@ -26,15 +26,13 @@
 	margin-bottom:5%;
 	margin-left:auto;
 	margin-right:auto;
-	/*position:relative;*/
 }
 #menu1li{
-	/*position:relative;*/
 	display:inline;
 	font-size:100%;
 	margin-right:20px;
 	margin-left:20px;
-	border-bottom:white solid 1px;
+
 }
 /*Kafé Soil*/
 #menu1H2{
@@ -52,6 +50,7 @@
 	margin-bottom:30%;
 	letter-spacing:2px;
 }
+
 /***********************************************************************************/
 /**************************** SECOND MENU ******************************************/
 /*id of the menu of the second menu*/
@@ -64,14 +63,8 @@
   display: none;
 }
 
-.first_menu_img{
-  width: 100%;
-  height: 100%;
-}
 
-
-
-.img_icon {
+#button1_img {
   position: absolute;
     border-radius: 50%;
     height: 70%;
@@ -95,7 +88,29 @@
  float: right;
 }
 /*************************************************************************************/
+/*****************************GENERAL*********************************************/
+  /* for all the links*/
+    /* unvisited link */
+    #menu_button:link {
+        color: white;
+    }
 
+    /* visited link */
+    #menu_button:visited {
+        color: white;
+    }
+
+    /* mouse over link */
+    #menu_button:hover {
+        color: hotpink;
+    }
+
+    /* selected link */
+    #menu_button:active {
+        color: pink;
+    }
+  /********************/
+/**************************************************************************************/
 /* ------ Form Style ------ */
 #volunteer{
   position: absolute;
