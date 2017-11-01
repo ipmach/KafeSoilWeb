@@ -5,23 +5,7 @@
   <title>KafeSoil</title>
   <link rel="stylesheet" href="css/style.css">
     <script src="https://www.w3schools.com/lib/w3.js"></script>
-    <script type="text/javascript">
-    //display the second menu if the scroll is in x position
-    document.addEventListener("scroll", function(){
-      var scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
-      if (scrollTop < 600) {  //position of the scroll to change the menu
-         document.getElementById("Menu2").style.display = "none";
-      }else {
-         document.getElementById("Menu2").style.display = "block";
-      }
-    });
-    var about_position=0;
-    function set_about_position(){
-      about_position=document.documentElement.scrollTop || document.body.scrollTop;
-      console.log("activate");
-      console.log(about_position);
-    };
-  </script>
+    <script src="javascript/desktop_menu.js"></script>
 </head>
 <body>
     <!-- First menu-->
@@ -35,7 +19,7 @@
             <li id="menu1li"><a href="https://www.w3schools.com/html/" class="button2" id="menu_button">About</a></li>
             <li id="menu1li"><a class="button2" id="menu_button">Eat and Drink</a></li>
             <li id="menu1li"><a class="button2" id="menu_button">Events</a></li>
-            <li id="menu1li"><a class="button2" id="menu_button">Art</a></li>
+            <li id="menu1li"><a href="#art" class="button2" id="menu_button">Art</a></li>
             <li id="menu1li"><a href="#volunteer" class="button2" id="menu_button">Volunteer</a></li>
             <li id="menu1li"><a class="button2" id="menu_button">Contact</a></li>
           </ul>
@@ -51,7 +35,7 @@
       </a>
       <a class="button1" id="menu_button">Contact</a>
       <a class="button1" href="#volunteer" id="menu_button">Volunteer</a>
-      <a class="button1" id="menu_button">Arts</a>
+      <a class="button1" href="#art" id="menu_button">Art</a>
       <a class="button1" id="menu_button">Events</a>
       <a class="button1" id="menu_button">Eat and drinks</a>
       <a class="button1" id="menu_button">About</a>
@@ -59,7 +43,8 @@
 
     <!-- Automatics links to the other pages-->
     <!--<div w3-include-html="html/hamlet_ActIII_scene1.html"></div><!--Example -->
-    <!--<div id="art" w3-include-html="html/art.html"></div>-->
+    <div id="art" w3-include-html="html/art.html" onload="preload_art()"></div>
+    <script src="javascript/pictures.js"></script>
     <div id="volunteer" w3-include-html="html/volunteer.html"></div>
     <!--<div w3-include-html="contacts.html"></div>
     <div w3-include-html="food_drinks.html"></div>

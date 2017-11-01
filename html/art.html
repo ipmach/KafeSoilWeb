@@ -9,36 +9,30 @@
   <h2>ART</h2>
 
   <div class="container_art">
-    <img class="pictures" src="kakesoil1.jpg" style="width:50%">
-    <img class="pictures" src="kakesoil2.jpg" style="width:50%">
-    <img class="pictures" src="kakesoil3.jpg" style="width:50%">
-    <img class="pictures" src="kakesoil4.jpg" style="width:50%">
-    <button class="next" onclick="plusDivs(-1)">&#10094;</button>
-    <button class="next" onclick="plusDivs(1)">&#10095;</button>
+    <div class="principal_picture">
+      <img class="pictures" src="img/kakesoil2.jpg" style="width:50%" id="princi">
+      <p id="princi" class="pictures_artist"> Artist : Rafael Nadal<p>
+      <img class="pictures" src="img/kakesoil3.jpg" style="width:50%">
+      <p  class="pictures_artist"> Artist : Michael Obama<p>
+      <img class="pictures" src="img/kakesoil4.jpg" style="width:50%">
+      <p class="pictures_artist"> Artist : Arya Stark<p>
+      <img class="pictures" src="img/kakesoil5.jpg" style="width:50%">
+      <p  class="pictures_artist"> Artist : Dark Vader<p>
+      <img class="pictures" src="img/kakesoil6.jpg" style="width:50%">
+      <p  class="pictures_artist"> Artist : Frodo Bolson<p>
+      <button class="after" onclick="nextOrAfter(-1)">&#10094;</button>
+      <button class="next" onclick="nextOrAfter(1)">&#10095;</button>
+    <div>
     <div class="container_art2">
-      <h1>Something here</h1>
+      <a onclick=" nextOrAfter2(1)"><img class="pictures2" src="img/kakesoil2.jpg" style="width:10%"></a>
+      <a onclick=" nextOrAfter2(2)"><img class="pictures2" src="img/kakesoil3.jpg" style="width:10%"></a>
+      <a onclick=" nextOrAfter2(3)"><img class="pictures2" src="img/kakesoil4.jpg" style="width:10%"></a>
+      <a onclick=" nextOrAfter2(4)"><img class="pictures2" src="img/kakesoil5.jpg" style="width:10%"></a>
+      <a onclick=" nextOrAfter2(5)"><img class="pictures2" src="img/kakesoil6.jpg" style="width:10%"></a>
     </div>
   </div>
 
-  <script>
-  var slideIndex = 1;
-  showDivs(slideIndex);
-
-  function plusDivs(n) {
-    showDivs(slideIndex += n);
-  }
-
-  function showDivs(n) {
-    var i;
-    var x = document.getElementsByClassName("pictures");
-    if (n > x.length) {slideIndex = 1}
-    if (n < 1) {slideIndex = x.length}
-    for (i = 0; i < x.length; i++) {
-       x[i].style.display = "none";
-  }
-  x[slideIndex-1].style.display = "block";
-  }
-</script>
+  <script src="../javascript/pictures.js"></script>
 
 </body>
 </html>
