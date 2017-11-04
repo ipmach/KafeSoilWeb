@@ -100,21 +100,42 @@
   z-index: 999;
 }
 
+.button_menu_var{
+    background-color:  #666666;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    display: block;
+}
+
+
 #options_menu2{
   position: fixed;
   z-index: 999;
   background-color:  #666666;
-  top:10%;
+  top:8%;
   left:0%;
+  display: none;
 }
 
-@media only screen and (max-width: 940px) {
+
+@media only screen and (max-width: 1280px) {
   #try{
     display: none;
   }
   #phone_menu2{
     display: block;
   }
+  #Menu1{
+    display: none;
+  }
+
 }
 /*************************************************************************************/
 /*****************************GENERAL*********************************************/
@@ -142,29 +163,29 @@
   /*Positions*/
   #volunteer{
     position: absolute;
-    top: 310%;
+    top: 330%;
     width: 100%;
   }
 
   #art{
     position: absolute;
-    top: 210%;
+    top:  230%;
     width: 100%;
   }
-  
+
   #events{
     position: absolute;
-    top: 110%;
+    top: 130%;
     width: 100%;
   }
-  
+
 /********************/
   /*Title Section Style*/
-  
+
   .space{
   	height: 66px;
   }
-  
+
   .titleSection {
 	background: #FF2979;
     padding: 20px 0;
