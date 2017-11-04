@@ -142,15 +142,38 @@
   /*Positions*/
   #volunteer{
     position: absolute;
-    top: 210%;
+    top: 310%;
     width: 100%;
   }
 
   #art{
     position: absolute;
+    top: 210%;
+    width: 100%;
+  }
+  
+  #events{
+    position: absolute;
     top: 110%;
     width: 100%;
   }
+  
+/********************/
+  /*Title Section Style*/
+  
+  .space{
+  	height: 66px;
+  }
+  
+  .titleSection {
+	background: #FF2979;
+    padding: 20px 0;
+    font-size: 140%;
+    font-weight: 300;
+    text-align: center;
+    color: white;
+    margin: -16px -16px 16px -16px;
+}
 
   /**********/
 /**************************************************************************************/

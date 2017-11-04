@@ -4,24 +4,24 @@
   <meta charset="utf-8">
   <title>KafeSoil</title>
   <link rel="stylesheet" href="css/style.css">
-    <script src="https://www.w3schools.com/lib/w3.js"></script>
     <script src="javascript/desktop_menu.js"></script>
+    <script src="javascript/load_page.js"></script>
 </head>
 <body>
     <!-- First menu-->
     <div id="container">
       <!--background picture of the first menu -->
-      <img src="img/menu1_img.jpg" id="img_menu" alt="prueba">
+      <img src="img/menu1.jpg" id="img_menu" alt="prueba">
       <div id="Menu1">
         <h1 id="menu1H1">
           <ul>
             <!-- Buttons -->
-            <li id="menu1li"><a href="https://www.w3schools.com/html/" class="button2" id="menu_button">About</a></li>
-            <li id="menu1li"><a class="button2" id="menu_button">Eat and Drink</a></li>
-            <li id="menu1li"><a class="button2" id="menu_button">Events</a></li>
+            <li id="menu1li"><a href="#about" class="button2" id="menu_button">About</a></li>
+            <li id="menu1li"><a href="#food_drinks" class="button2" id="menu_button">Eat and Drink</a></li>
+            <li id="menu1li"><a href="#events" class="button2" id="menu_button">Events</a></li>
             <li id="menu1li"><a href="#art" class="button2" id="menu_button">Art</a></li>
             <li id="menu1li"><a href="#volunteer" class="button2" id="menu_button">Volunteer</a></li>
-            <li id="menu1li"><a class="button2" id="menu_button">Contact</a></li>
+            <li id="menu1li"><a href="#contacts" class="button2" id="menu_button">Contact</a></li>
           </ul>
         </h1>
         <h2 id="menu1H2">Kafé Soil</h2>
@@ -54,17 +54,13 @@
       <a >About</a>
     </div>
     <!-- Automatics links to the other pages-->
-    <!--<div w3-include-html="html/hamlet_ActIII_scene1.html"></div><!--Example -->
-    <div id="art" w3-include-html="html/art.html" onload="preload_art()"></div>
-    <script src="javascript/pictures.js"></script>
-    <div id="volunteer" w3-include-html="html/volunteer.html"></div>
-    <!--<div w3-include-html="contacts.html"></div>
-    <div w3-include-html="food_drinks.html"></div>
-
-    <div w3-include-html="about.html"></div>
-    <div w3-include-html="art.html"></div>-->
     <script>
-      w3.includeHTML();
+        //document.getElementById('load').innerHTML = loadPage('html/about.html');
+		//document.getElementById('load').innerHTML = loadPage('html/food_drinks.html');
+		/*document.getElementById('events').innerHTML = loadPage('html/events.html');*/
+		document.getElementById('art').innerHTML = loadPage('html/art.html');
+		document.getElementById('volunteer').innerHTML = loadPage('html/volunteer.html');
+		document.getElementById('contacts').innerHTML = loadPage('html/contacts.html');
     </script>
 </body>
 </html>
