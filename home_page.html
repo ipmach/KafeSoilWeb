@@ -8,6 +8,32 @@
     <script src="javascript/load_page.js"></script>
 </head>
 <body>
+     <!-- SECOND MENU-->
+     <div id="try">
+      <div id="Menu2">
+        <a href="#Menu1">
+        <input type="image" src="img/icon_menu.jpg" id="button1_img">
+        </a>
+        <a class="button1" href="#contacts" id="menu_button">Contact</a>
+        <a class="button1" href="#volunteer" id="menu_button">Volunteer</a>
+        <a class="button1" href="#art" id="menu_button">Art</a>
+        <a class="button1" href="#events" id="menu_button">Events</a>
+        <a class="button1" href="#food_drinks" id="menu_button">Eat and drinks</a>
+        <a class="button1" href="#about" id="menu_button">About</a>
+      </div>
+    </div>
+    <div id="phone_menu2">
+      <button class="button_menu_var" id="menu_button" onclick="show_var()"> Menu</button>
+      <div id="options_menu2">
+        <a class="button_menu_var" href="#contacts" onclick="show_var()" id="menu_button">Contact</a>
+        <a class="button_menu_var" href="#volunteer" onclick="show_var()" id="menu_button">Volunteer</a>
+        <a class="button_menu_var" href="#art" onclick="show_var()" id="menu_button">Art</a>
+        <a class="button_menu_var" href="#events" onclick="show_var()" id="menu_button">Events</a>
+        <a class="button_menu_var" href="#food_drinks" onclick="show_var()" id="menu_button">Eat and drinks</a>
+        <a class="button_menu_var" href="#about" onclick="show_var()" id="menu_button">About</a>
+      </div>
+    </div>
+    <script src="javascript/show_var.js"></script>
     <!-- First menu-->
     <div id="container">
       <!--background picture of the first menu -->
@@ -27,57 +53,30 @@
         <h2 id="menu1H2">Kafé Soil</h2>
         <h3 id="menu1H3">Café & Bar</h3>
       </div>
-    </div>
-     <!-- SECOND MENU-->
-     <div id="try">
-      <div id="Menu2">
-        <a href="#Menu1">
-        <input type="image" src="img/icon_menu.jpg" id="button1_img">
-        </a>
-        <a class="button1" href="#contacts" id="menu_button">Contact</a>
-        <a class="button1" href="#volunteer" id="menu_button">Volunteer</a>
-        <a class="button1" href="#art" id="menu_button">Art</a>
-        <a class="button1" href="#events" id="menu_button">Events</a>
-        <a class="button1" href="#food_drinks" id="menu_button">Eat and drinks</a>
-        <a class="button1" href="#about" id="menu_button">About</a>
+        <div id="hold1">
+          <div class="page" id="food_drinks"></div>
+          <div id ="hold2">
+            <div  class="page" id="events">  </div>
+            <div id="hold2">
+              <div class="page" id="art"></div>
+              <div id="hold2">
+
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-    <div id="phone_menu2">
-      <button class="button_menu_var" id="menu_button" onclick="show_var()"> Menu</button>
-    </div>
-    <div id="options_menu2">
-      <a class="button_menu_var" href="#contacts" onclick="show_var()" id="menu_button">Contact</a>
-      <a class="button_menu_var" href="#volunteer" onclick="show_var()" id="menu_button">Volunteer</a>
-      <a class="button_menu_var" href="#art" onclick="show_var()" id="menu_button">Art</a>
-      <a class="button_menu_var" href="#events" onclick="show_var()" id="menu_button">Events</a>
-      <a class="button_menu_var" href="#food_drinks" onclick="show_var()" id="menu_button">Eat and drinks</a>
-      <a class="button_menu_var" href="#about" onclick="show_var()" id="menu_button">About</a>
-    </div>
-    <script>
-      var key_var=0;
-      function show_var(){
-        if (key_var==0){
-            document.getElementById('options_menu2').style.display="block";
-            key_var=1;
-        }else{
-            document.getElementById('options_menu2').style.display="none";
-            key_var=0;
-        }
-      }
-    </script>
-      <div id="about"></div>
-      <div id="food_drinks"></div>
-      <div id="events"></div>
-      <div id="art"></div>
-      <div id="volunteer"></div>
+      <div  id="volunteer"></div>
+        <div id="about"></div>
+
       <div id="contacts"></div>
     <!-- Automatics links to the other pages -->
     <script>
-        //document.getElementById('load').innerHTML = loadPage('html/about.html');
-		//document.getElementById('load').innerHTML = loadPage('html/food_drinks.html');
+    //document.getElementById('about').innerHTML = loadPage('html/about.html');
+		document.getElementById('food_drinks').innerHTML = loadPage('html/food_drinks.html');
 	  document.getElementById('events').innerHTML = loadPage('html/events.html');
 		document.getElementById('art').innerHTML = loadPage('html/art.html');
-		document.getElementById('volunteer').innerHTML = loadPage('html/volunteer.html');
+		//document.getElementById('volunteer').innerHTML = loadPage('html/volunteer.html');
 		document.getElementById('contacts').innerHTML = loadPage('html/contacts.html');
     </script>
     <script src="javascript/pictures.js"></script>

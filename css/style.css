@@ -1,7 +1,9 @@
 /*****************************FIRST MENU********************************************/
 /*div that contant the Menu1 and the img_menu*/
 #container{
-    position: relative;
+    position: absolute;
+    top:0%;
+    width: 100%;
     padding:0;
     margin:0;
 }
@@ -13,7 +15,8 @@
 
 /*ID of the menu id*/
 #Menu1{
-  position: absolute;
+  position: relative;
+  top: 0%;
   color: white;
   left:4%;
 }
@@ -89,6 +92,7 @@
  float: right;
 }
 
+/*Menu for phones*/
 #phone_menu2{
   display: none;
   position: fixed;
@@ -114,16 +118,21 @@
     display: block;
 }
 
-
+/*options when you display the phone menu*/
 #options_menu2{
-  position: fixed;
+  position: relative;
   z-index: 999;
   background-color:  #666666;
-  top:8%;
+  bottom:0%;
   left:0%;
   display: none;
 }
 
+@media only screen and (min-width: 1280px) {
+  #options_menu2{
+    visibility: hidden;
+  }
+}
 
 @media only screen and (max-width: 1280px) {
   #try{
@@ -133,7 +142,7 @@
     display: block;
   }
   #Menu1{
-    display: none;
+    visibility: hidden;
   }
 
 }
@@ -161,23 +170,34 @@
     }
   /********************/
   /*Positions*/
+  /*for auxiliar divs of relatives positions*/
+
+      #hold1{
+        position: relative;
+        bottom:  0%;
+        width: 100%;
+      }
+
+      #hold2{
+        position: relative;
+        bottom: -10%;
+        width: 100%;
+      }
+ /********************************************/
   #volunteer{
     position: absolute;
-    top: 330%;
+    top:3300 %;
     width: 100%;
   }
 
-  #art{
-    position: absolute;
-    top:  230%;
+  /*divs for make relatives positons*/
+  .page{
+    position: relative;
+    top: 0%;
     width: 100%;
   }
 
-  #events{
-    position: absolute;
-    top: 130%;
-    width: 100%;
-  }
+
 
 /********************/
   /*Title Section Style*/
