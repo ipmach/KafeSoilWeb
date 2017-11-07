@@ -19,6 +19,13 @@
     #menu_button:active {
         color: pink;
     }
+	
+	/*body characteristics*/
+	body{
+		margin:0;
+		padding:0;
+		font-family: Arial, Helvetica, sans-serif;
+	}
 
 /********************/
   /*Title Section Style*/
