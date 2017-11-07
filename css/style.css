@@ -168,36 +168,6 @@
     #menu_button:active {
         color: pink;
     }
-  /********************/
-  /*Positions*/
-  /*for auxiliar divs of relatives positions*/
-
-      #hold1{
-        position: relative;
-        bottom:  0%;
-        width: 100%;
-      }
-
-      #hold2{
-        position: relative;
-        bottom: -10%;
-        width: 100%;
-      }
- /********************************************/
-  #volunteer{
-    position: absolute;
-    top:3300 %;
-    width: 100%;
-  }
-
-  /*divs for make relatives positons*/
-  .page{
-    position: relative;
-    top: 0%;
-    width: 100%;
-  }
-
-
 
 /********************/
   /*Title Section Style*/
@@ -216,108 +186,7 @@
     margin: -16px -16px 16px -16px;
 }
 
-  /**********/
-/**************************************************************************************/
-/******************************ART*****************************************************/
-/*Div that contain all the art*/
-.container_art{
-  position: absolute;
-  width: 100%;
-}
-/*div that contain the menu with pictures*/
-.container_art2{
-  position: relative;
-  width: 100%;
-  top:20%;
-  background-color: pink;
-}
-/*Pictures in display*/
-.pictures{
-  position: relative;
-    left:20%;
-    display: none;
-}
-/*Css preload to only show one image and artist*/
-#princi{
-  display: block;
-}
-/**/
-.principal_picture{
-  position: relative;
-  width: 80%;
-}
-
-/*to dont display display all the artist*/
-.pictures_artist{
-  display: none;
-}
-
-/*button of next*/
-.next{
-  position: relative;
-  border-radius: 12px;
-  left:70%;
-  bottom:100%;
-}
-/*button of after*/
-.after{
-  position: relative;
-  border-radius: 12px;
-  left:14%;
-}
-
-
 /************************************************************************************/
-/* ------ Form Style ------ */
-.form{
-    font: 95% Arial, Helvetica, sans-serif;
-    width: 41%;
-    padding: 16px;
-    background: #F7F7F7;
-	float:left;
-}
-
-.form input[type="text"],
-.form input[type="email"],
-.form input[type="tel"],
-.form textarea,
-.form select
-{
-	outline: none;
-    box-sizing: border-box;
-    width: 100%;
-    background: #fff;
-    margin-bottom: 4%;
-    border: 1px solid #ccc;
-    padding: 3%;
-    color: #555;
-    font: 95% Arial, Helvetica, sans-serif;
-}
-
-.form input[type="submit"],
-.form input[type="button"]{
-    box-sizing: border-box;
-    width: 100%;
-    padding: 3%;
-    background: #FF2979;
-    border-bottom: 2px solid #BE0055;
-    border-top-style: none;
-    border-right-style: none;
-    border-left-style: none;
-    color: #fff;
-}
-
-.form input[type="submit"]:hover,
-.form input[type="button"]:hover{
-    background: #BE0055;
-}
-
-.alignRight{
-	width:50%;
-	float: right;
-}
-
-/* ------ End of Form Style ------ */
 
 /* ------ Food & Drinks ------- */
 
