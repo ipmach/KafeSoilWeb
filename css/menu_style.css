@@ -131,13 +131,13 @@
   display: none;
 }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 1000px) {
   #options_menu2{
     visibility: hidden;
   }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1000px) {
   #try{
     display: none;
   }
