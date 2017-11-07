@@ -31,7 +31,7 @@
 	font-weight: normal;
 }
 
-@media (max-width: 600px), (max-device-width: 600px) {
+@media (max-width: 800px), (max-device-width: 800px) {
 .food, .drinks {
 	float: none;
 	display: inline-block;
