@@ -242,7 +242,7 @@
 
 /*Div that contain all the art*/
 .container_art{
-  position: absolute;
+  position: relative;
   width: 100%;
 }
 /*div that contain the menu with pictures*/
