@@ -50,6 +50,7 @@
 	letter-spacing:5px; 
 	text-align:center;
 	font-size:400%;
+	padding-top:60px;
 	/*background: #e52253;
     padding: 20px 0;
     font-size: 140%;
@@ -68,5 +69,6 @@
 	background-color:#281f1c;
 	text-align:center;
 	color:#fcf6f6;
+	padding-top:60px;
  }
 /************************************************************************************/
