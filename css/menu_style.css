@@ -65,6 +65,7 @@
   top:0;
   left:0;
   right:0;
+  bottom:90%;
   background-color: #281f1c;
   opacity:0.8;
   display: none;
@@ -74,11 +75,12 @@
 
 #button1_img {
   position: absolute;
-    border-radius: 50%;
-    height: 70%;
-    width: 3%;
-    bottom: 20%;
-    left: 1%;
+  top:15%;
+  border-radius: 50%;
+  height: 75%;
+  width: 4%;
+  bottom: 20%;
+  left: 1%;
 }
 
 /* Buttons second menu*/
