@@ -1,11 +1,12 @@
 @charset "UTF-8";
 /* Form Style */
 .form{
+	position:relative;
     font: 95% myFont, sans-serif;
     width: 41%;
     padding: 16px;
     background: #F7F7F7;
-	float:left;
+	margin-left:auto;
 }
 
 .form input[type="text"],
@@ -48,6 +49,6 @@
 }
 
 .alignRight{
-	position:relative;
+	position:absolute;
 	width:50%;
 }
