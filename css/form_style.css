@@ -52,3 +52,13 @@
 	position:absolute;
 	width:50%;
 }
+
+@media only screen and (max-width: 1000px) {
+  .alignRight{
+    display: none;
+  }
+  .form{
+    position: absolute;
+    left:25%;
+  }
+}
