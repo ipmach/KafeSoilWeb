@@ -48,6 +48,6 @@
 }
 
 .alignRight{
+	position:relative;
 	width:50%;
-	float: right;
 }
