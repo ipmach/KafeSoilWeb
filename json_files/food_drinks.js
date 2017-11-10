@@ -146,7 +146,7 @@ function read_array(nameId, array){
    for (var i=0; i<array.length; i++){
      var list = document.getElementById(nameId);
      var li = document.createElement("li");
-     li.style="text-align: left";
+     li.style="text-align: left; list-style: none";
      li.appendChild(document.createTextNode(array[i].name +"________________________" + array[i].price));
      list.appendChild(li);
       console.log(array[i].name);
