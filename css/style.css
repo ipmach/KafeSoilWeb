@@ -44,16 +44,6 @@
 /********************/
   /*Title Section Style*/
 
-<<<<<<< HEAD
-  /*.space{
-  	height: 66px;
-  }*/
-=======
-  .space{
-  	height: 83px;
-  }
->>>>>>> bdd0df28d318d09be2c118643ff18e2ecf987ac5
-
  .titleSectionLight {
 	font-family:myFont, sans-serif;
 	padding-bottom:3%;
