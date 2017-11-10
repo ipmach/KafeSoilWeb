@@ -36,10 +36,12 @@ p#adress{
 	width:95%;
 	height:300px;
 	text-align:left;
+	padding-bottom:6px;
 }
 #facebook{
 	width:95%;
 	height:513px;
 	border:none;
 	overflow:scroll;
+	padding-bottom:7px;
 }

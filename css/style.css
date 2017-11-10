@@ -48,33 +48,51 @@
 	font-family:myFont, sans-serif;
 	letter-spacing:5px; 
 	text-align:center;
+	padding-bottom:2%;
+	margin-bottom:0;
 	font-size:400%;
-	padding-top:60px;
+	padding-top:20px;
 	color:#281f1c;
  }
  
  .titleSectionDark{
 	font-family:myFont, sans-serif;
-	font-size:400%;
-	padding-bottom:3%;
+	font-size:300%;
+	padding-bottom:2%;
 	margin-bottom:0;
 	letter-spacing:5px; 
 	background-color:#281f1c;
 	text-align:center;
 	color:#fcf6f6;
-	padding-top:60px;
+	padding-top:20px;
  }
 /************************************************************************************/
 footer{
-	background-color: #992A38;
+	background-color: #FF2979;
 	font-family: MyFont, sans-serif;
 	font-size:80%;
 	margin:0;
 	padding-top:2px;
 	padding-bottom:2px;
+	color:#fcf6f6;
+}
+
+footer>ul{
+	display:inline;
+	margin-left:60%;
+}
+
+.footer_buttons {
+	display:inline-block;
+	font-family:myFont, sans-serif;
+	list-style-type:none;
+	padding-right:6px;
+	padding-left:6px;
 }
 
 footer>p{
-	text-align:center;
+	text-align:left;
+	display:inline-block;
+	margin-left:2px;
 }
 

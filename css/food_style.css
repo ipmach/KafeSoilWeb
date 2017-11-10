@@ -31,9 +31,32 @@
 	height: 960px;
 }
 
+#drinks_list, #food_list{
+	line-height:30px;
+	padding-top:50px;
+}
+
 .wrapper h2 {
 	text-decoration: underline;
 	font-weight: normal;
+}
+
+#menu_title_food{
+	font-family:myFont, sans-serif;
+	font-size:250%;
+	border-bottom:solid #fcf6f6 1px;
+	padding-bottom:5px;
+	padding-top:5px;
+	display:inline;
+}
+
+#menu_title_drinks{
+	font-family:myFont, sans-serif;
+	font-size:250%;
+	border-bottom:solid #281f1c 1px;
+	padding-bottom:5px;
+	padding-top:5px;
+	display:inline;
 }
 
 @media (max-width: 768px), (max-device-width: 768px) {
