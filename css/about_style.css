@@ -1,14 +1,12 @@
-div#about{ 
+#about { 
 	background-color:#fcf6f6;
 	font-family: myFontdark, sans-serif;
 	font-size:13px;
 	text-align:center;
-	padding-bottom:5%;
+	padding-top:5%;
+	padding-bottom:0%;
 	color: #281f1c;
 	line-height:160%;
-}
-
-ul#aboutul{
 	list-style-type:none;
 	height:auto;
 }
