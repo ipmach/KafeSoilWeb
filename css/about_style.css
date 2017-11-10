@@ -5,13 +5,12 @@ body{
 }
 
 div#about{ 
-	background-color:rgb(252, 246, 246);
-	font-family: Arial, Helvetica, sans-serif;
+	background-color:#fcf6f6;
+	font-family: myFontdark, sans-serif;
 	font-size:13px;
 	text-align:center;
-	padding-top:11%;
-	padding-bottom:13%;
-	color:#555;
+	padding-bottom:5%;
+	color: #281f1c;
 	line-height:160%;
 }
 
@@ -30,14 +29,14 @@ li.aboutli {
 }
 
 .title_description{
-	color:rgb(32, 22, 21);
+	color: #281f1c;
 }
 
 .text{
 	padding-left:5%;
 	padding-right:5%;
 	max-width:90%;
-	color:rgb(87, 82, 98);
+	color: #281f1c;
 }
 
 .img_circles{
