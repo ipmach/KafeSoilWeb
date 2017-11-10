@@ -2,22 +2,23 @@
   /* for all the links*/
     /* unvisited link */
     #menu_button:link {
-        color: white;
+        color: #fcf6f6;
+		text-decoration:none;
     }
 
     /* visited link */
     #menu_button:visited {
-        color: white;
+        color: #fcf6f6;
     }
 
     /* mouse over link */
     #menu_button:hover {
-        color: hotpink;
+        color: #e52253;
     }
 
     /* selected link */
     #menu_button:active {
-        color: pink;
+        color: #e52253;
     }
 	
 	/*body characteristics*/
@@ -25,6 +26,7 @@
 		margin:0;
 		padding:0;
 		font-family: Arial, Helvetica, sans-serif;
+		background-color:#fcf6f6;
 	}
 
 /********************/
@@ -35,13 +37,13 @@
   }
 
   .titleSection {
-	background: #FF2979;
+	background: #e52253;
     padding: 20px 0;
     font-size: 140%;
     font-weight: 300;
     text-align: center;
-    color: white;
-    margin: -16px -16px 16px -16px;
+    color: #fcf6f6;
+    margin: -16px -16px 0px -16px;
 }
 
 /************************************************************************************/

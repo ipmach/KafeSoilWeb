@@ -7,10 +7,9 @@ body{
 	height:auto;
 	/*background-size:cover;*/
 	font-family: Arial, Helvetica, sans-serif;
-	color:white;
+	color:#fcf6f6;
 }
-h1{
-}
+
 h1>ul{
 	width:95%;
 	text-align:center;
@@ -28,7 +27,7 @@ li{
 	margin-right:20px;
 	margin-left:20px;
 	padding-bottom:5px;
-	border-bottom:white solid 1px;
+	border-bottom:#fcf6f6 solid 1px;
 }
 h2{
 	text-align:center;

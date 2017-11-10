@@ -20,7 +20,7 @@
 #Menu1{
   position: relative;
   top: 0%;
-  color: white;
+  color: #fcf6f6;
   left:4%;
 }
 
@@ -65,7 +65,8 @@
   top:0;
   left:0;
   right:0;
-  background-color:  #666666;
+  background-color: #281f1c;
+  opacity:0.8;
   display: none;
   z-index: 999;
 }
@@ -82,9 +83,9 @@
 
 /* Buttons second menu*/
 .button1 {
-  background-color:  #666666;
+  background-color: #281f1c;
   border: none;
- color: white;
+ color: #fcf6f6;
  padding: 15px 32px;
  text-align: center;
  text-decoration: none;
@@ -102,15 +103,15 @@
   top:0;
   left:0;
   right:0;
-  background-color:  #666666;
+  background-color: #281f1c;
   display: none;
   z-index: 999;
 }
 
 .button_menu_var{
-    background-color:  #666666;
+    background-color: #281f1c;
     border: none;
-    color: white;
+    color: #fcf6f6;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -125,7 +126,7 @@
 #options_menu2{
   position: relative;
   z-index: 999;
-  background-color:  #666666;
+  background-color: #281f1c;
   bottom:0%;
   left:0%;
   display: none;

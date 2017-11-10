@@ -1,5 +1,5 @@
 .wrapper {
-	font-family: Helvetica, sans-serif;
+	font-family: Arial, Helvetica, sans-serif;
 	overflow: hidden;
 	width: 100%;
 	margin: 0 auto;
@@ -18,12 +18,13 @@
 }
 
 .food{
-	color: white;
-	background-color: black;
+	background-color:#281f1c;
+	color: #fcf6f6;
 }
 
 .drinks{
-	background-color: white;
+	background-image:  url("../img/drinks.jpg");
+	opacity:0.5;
 }
 
 .wrapper h2 {

@@ -1,21 +1,23 @@
 @charset "UTF-8";
 /*  Art */
 
-/*Div that contain all the art*/
+/*Div that contains all the art*/
 .container_art{
   position: relative;
   width: 100%;
+  background-color:#281f1c;
 }
-/*div that contain the menu with pictures*/
+/*div that contains the menu with pictures*/
 .container_art2{
   position: relative;
   width: 100%;
   top:20%;
-  background-color: pink;
+  background-color: #e52253;
 }
 /*Pictures in display*/
 .pictures{
   position: relative;
+  text-align:center;
     left:20%;
     display: none;
 }
@@ -32,6 +34,8 @@
 /*to dont display display all the artist*/
 .pictures_artist{
   display: none;
+  font-family:Arial, Helvetica, sans-serif;
+  color:#fcf6f6;
 }
 
 /*button of next*/
