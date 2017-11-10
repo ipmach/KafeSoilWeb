@@ -28,6 +28,7 @@
 .drinks{
 	background-image:  url("../img/drinks.jpg");
 	opacity:0.5;
+	height: 960px;
 }
 
 .wrapper h2 {
