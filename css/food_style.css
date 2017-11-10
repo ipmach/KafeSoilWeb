@@ -26,8 +26,8 @@
 }
 
 .drinks{
-	background-image:  url("../img/drinks.jpg");
-	opacity:0.5;
+	background-image: url("../img/drinks.jpg");
+	opacity: 0.5;
 	height: 960px;
 }
 
@@ -36,10 +36,15 @@
 	font-weight: normal;
 }
 
-@media (max-width: 800px), (max-device-width: 800px) {
+@media (max-width: 768px), (max-device-width: 768px) {
 .food, .drinks {
 	float: none;
 	display: inline-block;
 	width: 100%;
+	min-height: 200px;
 	}
+
+.drinks {
+	background-repeat: no-repeat;
+	height: 100%;
 }
