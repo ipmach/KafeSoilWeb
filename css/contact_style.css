@@ -5,14 +5,14 @@ body{
 }
 
 #contact{
-	background-color:rgb(252, 246, 246);
-	font-family: Arial, Helvetica, sans-serif;
+	background-color:#281f1c;
+	font-family: myFont, sans-serif;
 	font-size:13px;
 	text-align:center;
 	line-height:200%;
 	padding-left:3%;
 	padding-top:5%;
-	color:#555;
+	color:#fcf6f6;
 }
 h1#coffeeShop{
 	font-size:170%;

@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /* Form Style */
 .form{
-    font: 95% Arial, Helvetica, sans-serif;
+    font: 95% myFont, sans-serif;
     width: 41%;
     padding: 16px;
     background: #F7F7F7;
@@ -22,7 +22,7 @@
     border: 1px solid #ccc;
     padding: 3%;
     color: #555;
-    font: 95% Arial, Helvetica, sans-serif;
+    font: 95% myFont, sans-serif;
 }
 
 .form input[type="submit"],
@@ -43,7 +43,11 @@
     background: #BE0055;
 }
 
+#submit{
+	font-family:myFont, sans-serif;
+}
+
 .alignRight{
+	position:relative;
 	width:50%;
-	float: right;
 }
