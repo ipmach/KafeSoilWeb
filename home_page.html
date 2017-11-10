@@ -61,29 +61,10 @@
       <div id="contacts"></div>
     </div>
     <!-- Automatics links to the other pages -->
-    <script>
-		document.getElementById('about').innerHTML = loadPage('html/about.html');
-  		document.getElementById('food_drinks').innerHTML = loadPage('html/food_drinks.html');
-		document.getElementById('events').innerHTML = loadPage('html/events.html');
-  		document.getElementById('art').innerHTML = loadPage('html/art.html');
-  		document.getElementById('volunteer').innerHTML = loadPage('html/volunteer.html');
-  		document.getElementById('contacts').innerHTML = loadPage('html/contact.html');
-    </script>
+    <script src="javascript/script_load.js"></script>
     <script src="json_files/food_drinks.js"></script>
     <script src="javascript/pictures.js"></script>
     <script src="https://smtpjs.com/smtp.js"></script>  <!-- Tooked from https://smtpjs.com/-->
-    <script>
-      function sendEmailForm(){
-        event.preventDefault();
-        var name=document.getElementById('nameForm').value;
-        var email=document.getElementById('emailForm').value;
-        var tel=document.getElementById('telForm').value;
-        var choice=document.getElementById("choiceForm").value;
-        var text=document.getElementById("textForm").value;
-        var message= "Name: "+ name + "  Email: "+email+ "  Phone number: "+tel + "   Can help with:" + choice + "   About him/her:" + text;
-        console.log(message);
-        Email.send("nymousano1@hotmail.com","andre.gg96@gmail.com","volunteer",message,{token:"86b36def-fa1d-42df-a949-4c93af466a3b"});
-      }
-    </script>
+    <script src="javascript/send_email.js"></script>
 </body>
 </html>
