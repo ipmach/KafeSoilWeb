@@ -2,40 +2,31 @@
 /* Menus */
 
 /*******FIRST MENU**********************/
-/*div that contant the Menu1 and the img_menu*/
-#container{
-    position: absolute;
-    top:0%;
-    width: 100%;
-    padding:0;
-    margin:0;
-}
 /*image background*/
 #img_menu{
-  position: absolute;
+  position: relative;
   width: 100%;
 }
 
 /*ID of the menu id*/
 #Menu1{
-  position: relative;
+  position: absolute;
   top: 0%;
+  left:0%;
+  right:0%;
   color: #fcf6f6;
-  left:4%;
 }
 
 #menu1H1{
-	width:95%;
 	text-align:center;
 	line-height:155%;
-	margin-top:30%;
+	margin-top:32%;
 	margin-bottom:5%;
 	margin-left:auto;
 	margin-right:auto;
 }
 #menu1li{
 	display:inline;
-	font-size:100%;
 	margin-right:20px;
 	margin-left:20px;
 
@@ -45,16 +36,17 @@
 	text-align:center;
 	float:center;
 	font-size:140%;
-	margin-top:5%;
+	margin-top:10%;
 	letter-spacing:5px;
+	color:#151111;
 }
 /*Café & Bar*/
 #menu1H3{
 	text-align:center;
 	font-size:90%;
-	margin-top:5%;
-	margin-bottom:30%;
+	margin-bottom:20%;
 	letter-spacing:2px;
+	color:#151111;
 }
 
 /***********************************************************************************/
