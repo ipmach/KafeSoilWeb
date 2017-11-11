@@ -58,7 +58,8 @@
     display: none;
   }
   .form{
-    position: absolute;
-    left:25%;
+	width: 80%;
+    margin-left:auto;
+	margin-right:auto;
   }
 }
