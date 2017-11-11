@@ -14,8 +14,6 @@
 	float: left;
 	width: 50%;
 	padding: 0px;
-	min-height: 100%;
-	height: 100%;
 	padding-bottom: 100%;
 	margin-bottom: -100%;
 }
@@ -27,13 +25,15 @@
 
 .drinks{
 	background-image: url("../img/drinks.jpg");
-	opacity: 0.5;
-	height: 960px;
+	height: 100%;
+	min-height:600px;
 }
 
 #drinks_list, #food_list{
+	list-style: none;
 	line-height:30px;
 	padding-top:50px;
+	text-align:center;
 }
 
 .wrapper h2 {
@@ -44,19 +44,17 @@
 #menu_title_food{
 	font-family:myFont, sans-serif;
 	font-size:250%;
-	border-bottom:solid #fcf6f6 1px;
+	text-decoration: overline; 
 	padding-bottom:5px;
-	padding-top:5px;
-	display:inline;
+	padding-top:15%;
 }
 
 #menu_title_drinks{
 	font-family:myFont, sans-serif;
 	font-size:250%;
-	border-bottom:solid #281f1c 1px;
+	text-decoration: overline; 
 	padding-bottom:5px;
-	padding-top:5px;
-	display:inline;
+	padding-top:15%;
 }
 
 @media (max-width: 768px), (max-device-width: 768px) {
