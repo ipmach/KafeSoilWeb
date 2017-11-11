@@ -79,16 +79,17 @@
 .button1 {
   background-color: #281f1c;
   border: none;
- color: #fcf6f6;
- padding: 15px 32px;
- text-align: center;
- text-decoration: none;
- display: inline-block;
- font-size: 16px;
- margin: 4px 2px;
- cursor: pointer;
- float: right;
- opacity:100%;
+  font-weight:bold;
+  color: #fcf6f6;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 4px 2px;
+  cursor: pointer;
+  float: right;
+  opacity:100%;
 }
 
 /*Menu for phones*/
