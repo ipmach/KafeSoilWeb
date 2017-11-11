@@ -53,19 +53,29 @@
 	font-family:myFont, sans-serif;
 	font-size:250%;
 	text-decoration: overline; 
-	padding-bottom:5px;
+	padding-bottom:5%;
 	padding-top:15%;
 }
 
 @media (max-width: 768px), (max-device-width: 768px) {
-.food, .drinks {
-	float: none;
-	display: inline-block;
-	width: 100%;
-	min-height: 200px;
+	.food, .drinks {
+		float: none;
+		display: inline-block;
+		width: 100%;
+		min-height: 200px;
+		}
+	
+	.drinks {
+		background-repeat: no-repeat;
+		height: 100%;
 	}
-
-.drinks {
-	background-repeat: no-repeat;
-	height: 100%;
+	
+	#drinks_list, #food_list{
+	padding-top:0px;
+    }
+	
+	#menu_title_drinks, #menu_title_food{
+	padding-bottom:0px;
+	padding-top:5%;
+    }
 }
