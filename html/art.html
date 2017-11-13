@@ -1,13 +1,25 @@
+<!-- 
+
+File name: art.html
+Written by: André Garcia Gomez
+When: November 2017
+Purpose: display the art items on the webpage. 
+		It stores all the pictures and the artist names.
+		The display of the art pictures and names on the website
+		is managed by the Javascript file.
+-->
+
 <html lang="en">
 <head>
   <meta charset="utf-8">
   <title>Art</title>
   <link rel="stylesheet" href="css/art_style.css">
-
 </head>
+
 <body>
   <h1 class="titleSectionDark">Art</h1>
   <div class="container_art">
+  <!--Store all the images and the artist names -->
     <div class="principal_picture">
       <img class="pictures" src="img/kakesoil2.jpg" style="width:50%" id="princi">
       <p id="princi" class="pictures_artist"> Artist : Rafael Nadal<p>
@@ -19,9 +31,13 @@
       <p  class="pictures_artist"> Artist : Dark Vader<p>
       <img class="pictures" src="img/kakesoil6.jpg" style="width:50%">
       <p  class="pictures_artist"> Artist : Frodo Bolson<p>
+
+	<!--Define the buttons to switch pictures -->
       <button class="after" onclick="nextOrAfter(-1)">&#10094;</button>
       <button class="next" onclick="nextOrAfter(1)">&#10095;</button>
     </div>
+	
+	<!-- Manage which pictures appears in big -->
     <div class="container_art2">
       <a onclick=" nextOrAfter2(1)"><img class="pictures2" src="img/kakesoil2.jpg" style="width:10%"></a>
       <a onclick=" nextOrAfter2(2)"><img class="pictures2" src="img/kakesoil3.jpg" style="width:10%"></a>
@@ -34,3 +50,9 @@
 
 </body>
 </html>
+
+<!-- 
+Léa Gaigeot, Lauri Koikkalainen, André Garcia Gomez, Aurianne Vienney
+November 2017
+Web Technologies
+-->
