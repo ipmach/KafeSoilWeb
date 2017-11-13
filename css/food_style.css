@@ -1,6 +1,13 @@
+/*
 
+File name: food_style.css
+Written by: Lauri Koikkalainen
+When: November 2017
+Purpose: Stylesheet for food_drinks.html
 
-.wrapper {
+*/
+
+.wrapper {    /* a wrapper div to keep the divs for food and drinks in place */
 	font-family: myFont, sans-serif;
 	font-size:13px;
 	overflow: hidden;
@@ -19,19 +26,18 @@
 	padding-top:10%;
 }
 
-.food{
+.food{  /* div for food */
 	background-color:#281f1c;
 	color: #fcf6f6;
 }
 
-.drinks{
+.drinks{  /* div for drinks */
 	background-image: url("../img/drinks.jpg");
 	height: 100%;
 	min-height:600px;
 }
 
-#drinks_list, #food_list{
-	list-style: none;
+#drinks_list, #food_list{ /* IDs for the tables that make up the menu (food & drinks) */
 	line-height:30px;
 	padding-top:50px;
 	padding-left:15px;
@@ -49,7 +55,7 @@ td {
 	font-weight: normal;
 }
 
-#menu_title_food, #menu_title_drinks{
+#menu_title_food, #menu_title_drinks{ 
 	font-family:myFont, sans-serif;
 	font-size:250%;
 	border-bottom:solid #FCF6F6 1px;
@@ -89,3 +95,9 @@ td {
 	padding-top:5%;
     }
 }
+
+/*
+Léa Gaigeot, Lauri Koikkalainen, André Garcia Gomez, Aurianne Vienney
+November 2017
+Web Technologies
+*/

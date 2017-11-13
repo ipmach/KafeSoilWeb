@@ -1,3 +1,12 @@
+/*
+
+File name: about_style.css
+Written by: Aurianne Vienney
+When: November 2017
+Purpose: Stylesheet for about.html
+
+*/
+
 #about { 
 	background-color:#fcf6f6;
 	font-family: myFontdark, sans-serif;
@@ -37,4 +46,8 @@ li.aboutli {
 	height:auto;
 }
 
-	
+/*
+Léa Gaigeot, Lauri Koikkalainen, André Garcia Gomez, Aurianne Vienney
+November 2017
+Web Technologies
+*/	

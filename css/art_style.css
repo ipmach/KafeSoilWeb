@@ -1,3 +1,12 @@
+/*
+
+File name: art_style.css
+Written by: André Garcia Gomez
+When: November 2017
+Purpose: Stylesheet for art.html
+
+*/
+
 @charset "UTF-8";
 /*  Art */
 
@@ -56,3 +65,9 @@
   border-radius: 12px;
   left:15%;
 }
+
+/*
+Léa Gaigeot, Lauri Koikkalainen, André Garcia Gomez, Aurianne Vienney
+November 2017
+Web Technologies
+*/

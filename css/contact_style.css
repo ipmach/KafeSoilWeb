@@ -1,3 +1,11 @@
+/*
+
+File name: contact_style.css
+Written by: Aurianne Vienney
+When: November 2017
+Purpose: Stylesheet for contact.html
+
+*/
 
 body{
 	margin:0;
@@ -45,3 +53,9 @@ p#adress{
 	overflow:scroll;
 	padding-bottom:7px;
 }
+
+/*
+Léa Gaigeot, Lauri Koikkalainen, André Garcia Gomez, Aurianne Vienney
+November 2017
+Web Technologies
+*/

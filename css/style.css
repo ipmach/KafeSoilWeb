@@ -1,3 +1,12 @@
+/*
+
+File name: style.css
+Written by: Léa Gaigeot, Lauri Koikkalainen, André Garcia Gomez, Aurianne Vienney
+When: November 2017
+Purpose: General purpose stylsheet for rules that are general across all of the different sites.
+
+*/
+
 /*****************************GENERAL**********/
   /* for all the links*/
     /* unvisited link */
@@ -99,3 +108,9 @@ footer>p{
 		font-weight:bold;
 	}
 }
+
+/* 
+Léa Gaigeot, Lauri Koikkalainen, André Garcia Gomez, Aurianne Vienney
+November 2017
+Web Technologies
+*/

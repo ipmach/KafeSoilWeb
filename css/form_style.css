@@ -1,3 +1,12 @@
+/*
+
+File name: form_style.css
+Written by: Léa Gaigeot
+When: November 2017
+Purpose: Stylesheet for volunteer.html
+
+*/
+
 @charset "UTF-8";
 /* Form Style */
 .form{
@@ -63,3 +72,9 @@
 	margin-right:auto;
   }
 }
+
+/*
+Léa Gaigeot, Lauri Koikkalainen, André Garcia Gomez, Aurianne Vienney
+November 2017
+Web Technologies
+*/
