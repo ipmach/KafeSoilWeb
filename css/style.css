@@ -1,23 +1,23 @@
 /*****************************GENERAL**********/
   /* for all the links*/
     /* unvisited link */
-    #menu_button:link {
+    .button1:link, .button2:link {
         color: #fcf6f6;
 		text-decoration:none;
     }
 
     /* visited link */
-    #menu_button:visited {
+    .button1:visited, .button2:visited, .button_menu_var:visited {
         color: #fcf6f6;
     }
 
     /* mouse over link */
-    #menu_button:hover {
+    .button1:hover, .button2:hover, .button_menu_var:hover {
         color: #e52253;
     }
 
     /* selected link */
-    #menu_button:active {
+    .button1:active, .button2:active, .button_menu_var:active {
         color: #e52253;
     }
 	
