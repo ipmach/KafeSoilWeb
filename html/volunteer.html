@@ -1,3 +1,12 @@
+<!--
+
+File name: volunteer.html
+Written by: Léa Gaigeot
+When: November 2017
+Purpose: Form for volunteers to fill in and send to the owner.
+
+-->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,9 +14,14 @@
   <title>Volunteer</title>
   <link rel="stylesheet" href="css/form_style.css">
 </head>
+
 <body>
 	<h1 class="titleSectionLight">Volunteer</h1>
+	
+	<!--Image on the other side of the form-->
     <img class="alignRight" src="img/kakesoil3.jpg" alt="form" >
+	
+	<!--Form-->
 	<div class="form">
         <form name="VolunteerForm">
             <input type="text" name="name" id="nameForm" placeholder="*Your Name">
@@ -16,6 +30,7 @@
             <br>
             <input type="tel" name="phone" id="telForm" placeholder="Phone Number">
             <br>
+			<!-- Menu to choose between several volunteering options-->
             <select name="volunteerChoice" id="choiceForm">
             	<option value="all">I can help with everything</option>
   				<option value="kitchen">Kitchen help</option>
@@ -23,8 +38,17 @@
 			</select>
             <textarea name="about"  id="textForm" placeholder="Hey! Tell me more about you :)" rows="4" cols="50"></textarea>
             <br><br>
+			
+			<!-- Submit button: it works with the smtp.js file that allows the form to be sent to the owner.-->
             <input id="submit" type="submit" onclick="sendEmailForm()" value="Submit">
         </form>
     </div>
 </body>
 </html>
+
+
+<!-- 
+Léa Gaigeot, Lauri Koikkalainen, André Garcia Gomez, Aurianne Vienney
+November 2017
+Web Technologies
+-->
