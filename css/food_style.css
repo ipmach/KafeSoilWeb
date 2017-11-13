@@ -1,7 +1,7 @@
 
 
 .wrapper {
-	font-family: myFontdark;
+	font-family: myFont, sans-serif;
 	font-size:13px;
 	overflow: hidden;
 	width: 100%;
@@ -14,8 +14,9 @@
 	float: left;
 	width: 50%;
 	padding: 0px;
-	padding-bottom: 100%;
+	padding-bottom: 90%;
 	margin-bottom: -100%;
+	padding-top:10%;
 }
 
 .food{
@@ -40,7 +41,7 @@
 
 td {
 	text-align: left;
-	padding-left: 50px;
+	padding-left: 75px;
 }
 
 .wrapper h2 {
@@ -54,7 +55,6 @@ td {
 	border-bottom:solid #FCF6F6 1px;
 	display:inline;
 	padding-bottom:5px;
-	padding-top:15%;
 }
 
 #menu_title_drinks{
@@ -62,15 +62,20 @@ td {
 }
 
 @media (max-width: 768px), (max-device-width: 768px) {
+	body, html {
+		width: 100%;
+	}
 	.food, .drinks {
 		float: none;
 		display: inline-block;
 		width: 100%;
 		min-height: 200px;
+		padding-bottom: 100%;
 		}
 	
 	.drinks {
 		background-repeat: no-repeat;
+		background-size: cover;
 		height: 100%;
 	}
 	

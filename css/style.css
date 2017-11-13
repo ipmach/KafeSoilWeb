@@ -1,23 +1,23 @@
 /*****************************GENERAL**********/
   /* for all the links*/
     /* unvisited link */
-    #menu_button:link {
+    .button1:link, .button2:link {
         color: #fcf6f6;
 		text-decoration:none;
     }
 
     /* visited link */
-    #menu_button:visited {
+    .button1:visited, .button2:visited, .button_menu_var:visited {
         color: #fcf6f6;
     }
 
     /* mouse over link */
-    #menu_button:hover {
+    .button1:hover, .button2:hover, .button_menu_var:hover {
         color: #e52253;
     }
 
     /* selected link */
-    #menu_button:active {
+    .button1:active, .button2:active, .button_menu_var:active {
         color: #e52253;
     }
 	
@@ -50,14 +50,14 @@
 	text-align:center;
 	padding-bottom:2%;
 	margin-bottom:0;
-	font-size:400%;
+	font-size:50px;
 	padding-top:60px;
 	color:#281f1c;
  }
  
  .titleSectionDark{
 	font-family:myFont, sans-serif;
-	font-size:300%;
+	font-size:50px;
 	padding-bottom:2%;
 	margin-bottom:0;
 	letter-spacing:5px; 
@@ -75,24 +75,27 @@ footer{
 	padding-top:2px;
 	padding-bottom:2px;
 	color:#fcf6f6;
+	padding-right:7%;
+	padding-left:7%;
 }
 
 footer>ul{
-	display:inline;
-	margin-left:60%;
+	float:right;
 }
 
 .footer_buttons {
 	display:inline-block;
 	font-family:myFont, sans-serif;
 	list-style-type:none;
-	padding-right:6px;
-	padding-left:6px;
 }
 
 footer>p{
 	text-align:left;
 	display:inline-block;
-	margin-left:2px;
 }
 
+@media only screen and (max-width: 1000px) {
+	body{
+		font-weight:bold;
+	}
+}

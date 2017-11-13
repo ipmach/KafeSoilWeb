@@ -12,7 +12,7 @@
   position: relative;
   width: 100%;
   top:20%;
-  background-color: #e52253;
+  background-color: #FF2979;
 }
 /*Pictures in display*/
 .pictures{
@@ -36,6 +36,7 @@
 
 /*to avoid displaying all the artist*/
 .pictures_artist{
+  margin: 0px;
   display: none;
   font-family:myFont, sans-serif;
   color:#fcf6f6;
