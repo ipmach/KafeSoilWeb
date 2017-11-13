@@ -1,7 +1,7 @@
 
 
 .wrapper {
-	font-family: myFontdark;
+	font-family: myFont, sans-serif;
 	font-size:13px;
 	overflow: hidden;
 	width: 100%;

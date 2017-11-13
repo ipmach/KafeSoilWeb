@@ -106,15 +106,16 @@
 }
 
 .button_menu_var{
-    background-color: #281f1c;
+    font-family: myFont, sans-serif;
+	background-color: #281f1c;
     border: none;
     color: #fcf6f6;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+	display: inline-block;
     font-size: 16px;
-    margin: 4px 2px;
+	margin: 4px 2px;
     cursor: pointer;
     display: block;
 }
