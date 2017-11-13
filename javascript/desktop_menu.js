@@ -10,6 +10,4 @@ document.addEventListener("scroll", function(){
 var about_position=0;
 function set_about_position(){
   about_position=document.documentElement.scrollTop || document.body.scrollTop;
-  console.log("activate");
-  console.log(about_position);
 };
