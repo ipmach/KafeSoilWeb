@@ -1,3 +1,13 @@
+/*
+
+File name: food_drinks.js
+Written by: André García Gómez
+When: November 2017
+Purpose: send a Email and do the validation.
+
+*/
+
+//Make sure you write a email and a name.
 function validateForm() {
     var x = document.forms["VolunteerForm"]["name"].value;
     if (x == "") {
@@ -14,6 +24,7 @@ function validateForm() {
 	return true;
 }
 
+//Use the function of Email.send to send a email. 
 function sendEmailForm(){
 	if (validateForm()) {
 		event.preventDefault();
@@ -28,3 +39,9 @@ function sendEmailForm(){
 		Email.send("nymousano1@hotmail.com","andre.gg96@gmail.com","volunteer",message,{token:"86b36def-fa1d-42df-a949-4c93af466a3b"});
 	}
 }
+
+/*
+Léa Gaigeot, Lauri Koikkalainen, André Garcia Gomez, Aurianne Vienney
+November 2017
+Web Technologies
+*/
