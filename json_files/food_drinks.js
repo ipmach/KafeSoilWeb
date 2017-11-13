@@ -146,8 +146,13 @@ function read_array(nameId, array){
    for (var i=0; i<array.length; i++){
      var list = document.getElementById(nameId);
      var li = document.createElement("li");
+     var sum=35-array[i].name.length;
+     let space="_";
+     for (var j=0; j<sum;j++){
+       space=space+"_";
+     }
      li.style="text-align: left";
-     li.appendChild(document.createTextNode(array[i].name +"________________________" + array[i].price));
+     li.appendChild(document.createTextNode(array[i].name +space + array[i].price));
      list.appendChild(li);
       console.log(array[i].name);
     }
