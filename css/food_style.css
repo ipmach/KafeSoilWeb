@@ -33,28 +33,37 @@
 	list-style: none;
 	line-height:30px;
 	padding-top:50px;
+	padding-left:15px;
 	text-align:center;
+	width: 100%;
 }
 
+td {
+	text-align: left;
+}
+
+
+td {
+	padding-left: 50px;
+}
+
+
 .wrapper h2 {
-	text-decoration: underline;
+	/*text-decoration: underline; */
 	font-weight: normal;
 }
 
-#menu_title_food{
+#menu_title_food, #menu_title_drinks{
 	font-family:myFont, sans-serif;
 	font-size:250%;
-	text-decoration: overline; 
+	border-bottom:solid #FCF6F6 1px;
+	display:inline;
 	padding-bottom:5px;
 	padding-top:15%;
 }
 
 #menu_title_drinks{
-	font-family:myFont, sans-serif;
-	font-size:250%;
-	text-decoration: overline; 
-	padding-bottom:5%;
-	padding-top:15%;
+	border-bottom: solid #281F1C 1px;
 }
 
 @media (max-width: 768px), (max-device-width: 768px) {
@@ -72,7 +81,8 @@
 	
 	#drinks_list, #food_list{
 	padding-top:0px;
-    }
+
+}
 	
 	#menu_title_drinks, #menu_title_food{
 	padding-bottom:0px;
