@@ -11,7 +11,6 @@ body{
 	text-align:center;
 	line-height:200%;
 	padding-left:3%;
-	padding-top:5%;
 	color:#fcf6f6;
 }
 h1#coffeeShop{
@@ -37,10 +36,12 @@ p#adress{
 	width:95%;
 	height:300px;
 	text-align:left;
+	padding-bottom:6px;
 }
 #facebook{
 	width:95%;
 	height:513px;
 	border:none;
 	overflow:scroll;
+	padding-bottom:7px;
 }

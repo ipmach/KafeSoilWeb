@@ -1,0 +1,34 @@
+food = [
+  {
+    name:"Chocolate cake",
+    price:"20 kr",
+	allergen:"L,G"
+  },
+  {
+    name:"Carrot cake",
+    price:"20 kr"
+  },
+  {
+    name:"Cookies",
+    price:"5 kr"
+  },
+  {
+    name:"Banana",
+    price:"600 kr"
+  }
+];
+
+drinks = [
+  {
+    name:"Organic milk",
+    price:"30 kr"
+  },
+  {
+    name:"Vegan cofe",
+    price:"21 kr"
+  },
+  {
+    name:"Vegan vodka",
+    price:"30 kr"
+  }
+];

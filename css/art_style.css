@@ -17,8 +17,11 @@
 /*Pictures in display*/
 .pictures{
   position: relative;
-  text-align:center;
-  left:20%;
+  margin:auto;
+  left:0;
+  right:0;
+  top:0;
+  bottom:0;
   display: none;
 }
 /*Css preload to only show one image and artist*/
@@ -28,10 +31,10 @@
 /**/
 .principal_picture{
   position: relative;
-  width: 80%;
+  width: 100%;
 }
 
-/*to dont display display all the artist*/
+/*to avoid displaying all the artist*/
 .pictures_artist{
   display: none;
   font-family:myFont, sans-serif;
@@ -39,16 +42,16 @@
   text-align:center;
 }
 
-/*button of next*/
+/*"Next" button*/
 .next{
   position: relative;
   border-radius: 12px;
-  left:70%;
+  left:80%;
   bottom:100%;
 }
-/*button of after*/
+/*"After" button*/
 .after{
   position: relative;
   border-radius: 12px;
-  left:14%;
+  left:15%;
 }

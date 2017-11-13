@@ -46,9 +46,10 @@
 
  .titleSectionLight {
 	font-family:myFont, sans-serif;
-	padding-bottom:3%;
 	letter-spacing:5px; 
 	text-align:center;
+	padding-bottom:2%;
+	margin-bottom:0;
 	font-size:400%;
 	padding-top:60px;
 	color:#281f1c;
@@ -56,8 +57,8 @@
  
  .titleSectionDark{
 	font-family:myFont, sans-serif;
-	font-size:400%;
-	padding-bottom:3%;
+	font-size:300%;
+	padding-bottom:2%;
 	margin-bottom:0;
 	letter-spacing:5px; 
 	background-color:#281f1c;
@@ -67,23 +68,31 @@
  }
 /************************************************************************************/
 footer{
-	background-color: #BE0055;
+	background-color: #FF2979;
 	font-family: MyFont, sans-serif;
 	font-size:80%;
 	margin:0;
 	padding-top:2px;
 	padding-bottom:2px;
+	color:#fcf6f6;
 }
 
 footer>ul{
-	text-align:right;
+	display:inline;
+	margin-left:60%;
 }
 
-.footerli{
+.footer_buttons {
 	display:inline-block;
+	font-family:myFont, sans-serif;
 	list-style-type:none;
-	padding-left:5px;
-	padding-right:3px;
-	text-align:right;
+	padding-right:6px;
+	padding-left:6px;
+}
+
+footer>p{
+	text-align:left;
+	display:inline-block;
+	margin-left:2px;
 }
 
