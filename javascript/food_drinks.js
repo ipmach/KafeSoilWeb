@@ -1,9 +1,9 @@
 function read_array(nameId, array){
    for (var i=0; i<array.length; i++){
-     let table = document.getElementById(nameId);
-     let tr = document.createElement("tr");
-	 let itemName = document.createElement("td");
-	 let itemPrice = document.createElement("td");
+	 var table = document.getElementById(nameId);
+     var tr = document.createElement("tr");
+	 var itemName = document.createElement("td");
+	 var itemPrice = document.createElement("td");
      //let itemAllergen = document.createElement("td");
 	 itemName.appendChild(document.createTextNode(array[i].name));
      itemPrice.appendChild(document.createTextNode(array[i].price));
